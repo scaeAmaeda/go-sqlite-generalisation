@@ -39,6 +39,6 @@ func GetWhatever(db *sql.DB, query string) {
 	for _, col := range colonnes {
 		fmt.Println(col)
 	}
-	// Ici faut ajouter deux ligne de slice, une avec les pointeurs de l'autre
+	// Ici faut ajouter deux lignes de slice, une avec les pointeurs de l'autre
 	rows.Scan()
 }
